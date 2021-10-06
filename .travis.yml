@@ -1,1 +1,11 @@
 Language: Python
+python:
+  - "3.8"
+  - "3.9"
+  - "3.9-dev"  # 3.9 development branch
+  - "nightly"  # nightly build
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+script:
+  - sh run_tests.sh
