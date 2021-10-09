@@ -9,7 +9,8 @@ $(pwd)/sonar-scanner-4.6.2.2472-linux/bin/sonar-scanner -X \
   -Dsonar.projectKey=class-example \
   -Dsonar.sources=. \
   -Dsonar.host.url=https://sq.semanticsecurity.org \
-  -Dsonar.login=$SONARQUBE_LOGIN
+  -Dsonar.login=ab3ba86d480a6cb636e04ccc297e084ecfc2fdfa
+#  -Dsonar.login=$SONARQUBE_LOGIN
 echo Done!
 
 #echo Installing Sonar Scanner CLI
