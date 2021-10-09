@@ -3,10 +3,11 @@ language: python
 python:
   - "3.8"
   - "3.9"
+  - "3.9-dev"  # 3.9 development branch  
 # command to install dependencies
 install:
   - pip install -r requirements.txt
-#  - pip install flake8
+  - pip install flake8
 
 #script:
 #  - flake8 bad
