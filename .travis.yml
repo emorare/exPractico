@@ -9,9 +9,9 @@ install:
   - pip install -r requirements.txt
   - pip install flake8
 
-#script:
-#  - flake8 bad
-#  - bash sonar_scanner.sh
+script:
+  - flake8 bad
+  - bash sonar_scanner.sh
 
 #############################################
 #Language: Python
