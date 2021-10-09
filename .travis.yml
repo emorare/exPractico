@@ -10,7 +10,7 @@ install:
   - pip install flake8
 
 script:
-  - flake8 bad
+  - flake8 
   - bash sonar_scanner.sh
 
 #############################################
